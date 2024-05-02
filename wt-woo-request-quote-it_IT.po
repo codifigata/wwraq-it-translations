@@ -1,0 +1,2246 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WebToffee WooCommerce Request A Quote\n"
+"POT-Creation-Date: 2023-06-05 12:02+0530\n"
+"PO-Revision-Date: 2024-04-30 15:21+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wt-woo-request-quote.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-wt-woo-request-quote-admin.php:65
+#: admin/modules/settings/views/settings-layout.php:10
+msgid "Quotes for WooCommerce"
+msgstr "Preventivi per WooCommerce"
+
+#: admin/class-wt-woo-request-quote-admin.php:65
+#: admin/modules/settings/views/general/tabs/_general.php:177
+#: includes/wt-woo-request-quote-common-functions.php:344
+#: public/class-wt-woo-request-quote-public.php:1167
+msgid "Quotes"
+msgstr "Preventivi"
+
+#: admin/class-wt-woo-request-quote-admin.php:67
+#: admin/modules/settings/views/settings-layout.php:20
+msgid "General"
+msgstr "Generale"
+
+#: admin/class-wt-woo-request-quote-admin.php:68
+#: admin/modules/settings/views/quote/tabs/_quote.php:10
+#: admin/modules/settings/views/settings-layout.php:21
+msgid "Quote settings"
+msgstr "Impostazioni preventivo"
+
+#: admin/class-wt-woo-request-quote-admin.php:69
+#: admin/modules/settings/views/settings-layout.php:22
+msgid "Customize"
+msgstr "Personalizza"
+
+#: admin/class-wt-woo-request-quote-admin.php:82
+#, php-format
+msgctxt ""
+msgid "New Quote Request <span class=\"count\">(%s)</span>"
+msgid_plural "New Quote Request <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-wt-woo-request-quote-admin.php:83
+#, php-format
+msgctxt ""
+msgid "Quote Sent <span class=\"count\">(%s)</span>"
+msgid_plural "Quote Sent <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-wt-woo-request-quote-admin.php:84
+#, php-format
+msgctxt ""
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Expired <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-wt-woo-request-quote-admin.php:85
+#, php-format
+msgctxt ""
+msgid "Declined <span class=\"count\">(%s)</span>"
+msgid_plural "Declined <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-wt-woo-request-quote-admin.php:115
+#: admin/class-wt-woo-request-quote-admin.php:141
+#: includes/wt-woo-request-quote-common-functions.php:351
+msgid "Request quote"
+msgstr "Richiedi preventivo"
+
+#: admin/class-wt-woo-request-quote-admin.php:140
+msgctxt "page_slug"
+msgid "wtwraq-request-quote"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:176
+msgctxt "page_slug"
+msgid "wtwraq-thankyou"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:177
+msgid "Quote request received"
+msgstr "Richiesta di preventivo ricevuta"
+
+#: admin/class-wt-woo-request-quote-admin.php:195
+#: admin/class-wt-woo-request-quote-admin.php:198
+#: admin/class-wt-woo-request-quote-admin.php:762
+#: public/class-wt-woo-request-quote-public.php:394
+#: public/class-wt-woo-request-quote-public.php:448
+msgid "Error"
+msgstr "Errore"
+
+#: admin/class-wt-woo-request-quote-admin.php:223
+#: admin/class-wt-woo-request-quote-admin.php:234
+#: admin/class-wt-woo-request-quote-admin.php:244
+#: admin/class-wt-woo-request-quote-admin.php:298
+#: admin/class-wt-woo-request-quote-admin.php:302
+msgid "Updated successfully"
+msgstr "Aggiornato con successo"
+
+#: admin/class-wt-woo-request-quote-admin.php:227
+msgid "Re ordered successfully"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:238
+#: admin/class-wt-woo-request-quote-admin.php:256
+#: admin/class-wt-woo-request-quote-admin.php:277
+msgid "Loaded successfully"
+msgstr "Caricato con successo"
+
+#: admin/class-wt-woo-request-quote-admin.php:251
+#: admin/class-wt-woo-request-quote-admin.php:273
+#: admin/class-wt-woo-request-quote-admin.php:294
+msgid "Deleted successfully"
+msgstr "Eliminato con successo"
+
+#: admin/class-wt-woo-request-quote-admin.php:265
+#: admin/class-wt-woo-request-quote-admin.php:286
+msgid "Added successfully"
+msgstr "Aggiunto con successo"
+
+#: admin/class-wt-woo-request-quote-admin.php:363
+msgid "Quote details"
+msgstr "Dettagli del preventivo"
+
+#: admin/class-wt-woo-request-quote-admin.php:364
+msgid "Related quotes"
+msgstr "Preventivi correlati"
+
+#: admin/class-wt-woo-request-quote-admin.php:366
+#: admin/modules/settings/views/quote/quote.php:13
+#: public/class-wt-woo-request-quote-public.php:1248
+#: public/templates/quotes-list.php:22
+msgid "Quote"
+msgstr "Preventivo"
+
+#: admin/class-wt-woo-request-quote-admin.php:391
+msgid "Request created"
+msgstr "Richiesta creata"
+
+#: admin/class-wt-woo-request-quote-admin.php:392
+msgid "Quote request created"
+msgstr "Richiesta di preventivo creata"
+
+#: admin/class-wt-woo-request-quote-admin.php:439
+#: admin/modules/settings/views/general/tabs/_general.php:95
+#: public/templates/request-quote.php:46 public/templates/request-quote.php:143
+msgid "Preferred price"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:442
+msgid "Offered price"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:599
+#: admin/class-wt-woo-request-quote-admin.php:600
+#: admin/modules/emails/classes/class-wtwraq-quote-expired-email.php:14
+#: admin/modules/settings/views/quote/tabs/_email.php:65
+#: public/class-wt-woo-request-quote-public.php:1365
+#: public/class-wt-woo-request-quote-public.php:1366
+msgid "Quote expired"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:615
+msgid "Settings"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:616
+msgid "Documentation"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:617
+msgid "Support"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:763
+#: admin/modules/settings/views/settings-layout.php:82
+msgid "Add new form field"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:764
+msgid "Edit form field"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:765
+msgid "Are you sure you want to delete this field?"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:766
+msgid "Are you sure you want to delete this option?"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:767
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:768
+msgid "Are you sure you want to delete these items?"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:769
+#: admin/modules/settings/views/general/tabs/_exclusion_list.php:16
+#: admin/modules/settings/views/general/tabs/_inclusion_list.php:16
+msgid "Select product"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:770
+msgid "Select category"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:771
+msgid "Select tag"
+msgstr ""
+
+#: admin/class-wt-woo-request-quote-admin.php:772
+#: admin/modules/settings/views/customizer/pdf-templates/sidebar.php:81
+msgid "Remove logo"
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-new-quote-request-email.php:14
+#: admin/modules/settings/views/quote/tabs/_email.php:18
+msgid "New quote request"
+msgstr "Nuova richiesta di preventivo"
+
+#: admin/modules/emails/classes/class-wtwraq-new-quote-request-email.php:15
+msgid ""
+"This email is sent to the store owner when a new quote request is received."
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-new-quote-request-email.php:17
+msgid "New quote request: #{quote_id}"
+msgstr "Nuova richiesta di preventivo: #{quote_id}"
+
+#: admin/modules/emails/classes/class-wtwraq-new-quote-request-email.php:19
+#, php-format
+msgctxt "default email subject for new quote request received email"
+msgid "[%1$s]: New quote request #%2$s"
+msgstr "[%1$s]: Nuova richiesta di preventivo #%2$s"
+
+#: admin/modules/emails/classes/class-wtwraq-quote-accepted-email.php:14
+msgid "Accepted quote"
+msgstr "Preventivo approvato"
+
+#: admin/modules/emails/classes/class-wtwraq-quote-accepted-email.php:15
+msgid ""
+"This email is sent to the store owner when a quote is accepted by the "
+"customer."
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-accepted-email.php:17
+msgid "Quote accepted: #{quote_id}"
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-accepted-email.php:19
+#, php-format
+msgctxt "default email subject for quote accepted email"
+msgid "[%1$s]: Your quote #%2$s has been accepted"
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-declined-email.php:14
+msgid "Rejected quote"
+msgstr "Preventivo rifiutato"
+
+#: admin/modules/emails/classes/class-wtwraq-quote-declined-email.php:15
+msgid ""
+"This email is sent to the store owner when a quote is rejected by the "
+"customer."
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-declined-email.php:17
+msgid "Quote rejected: #{quote_id}"
+msgstr "Preventivo rifiutato: #{quote_id}"
+
+#: admin/modules/emails/classes/class-wtwraq-quote-declined-email.php:19
+#, php-format
+msgctxt "default email subject for quote rejected email"
+msgid "[%1$s]: Your quote #%2$s has been rejected"
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-expired-email.php:15
+msgid "This email is sent to the customer when the quote has expired."
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-expired-email.php:17
+msgid "Your quote has been expired"
+msgstr "Questo preventivo è scaduto"
+
+#: admin/modules/emails/classes/class-wtwraq-quote-expired-email.php:19
+msgctxt "default email subject for quote expired email"
+msgid "Your quote has been expired"
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-expiry-reminder-email.php:14
+#: admin/modules/settings/views/quote/tabs/_email.php:67
+msgid "Quote expiry reminder"
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-expiry-reminder-email.php:15
+msgid ""
+"This email is sent to the customer as an expiry reminder when the quote is "
+"about to expire."
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-expiry-reminder-email.php:17
+msgid "Your quote is about to expire"
+msgstr "Il tuo preventivo sta per scadere"
+
+#: admin/modules/emails/classes/class-wtwraq-quote-expiry-reminder-email.php:19
+msgctxt "default email subject for quote expiry reminder email"
+msgid "Hurry! Your quote is about to expire"
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-received-email.php:14
+msgid "Email with quote"
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-received-email.php:15
+msgid ""
+"This email is sent to the customer when a quote is received from the store "
+"owner."
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-received-email.php:17
+msgid "Your quote is ready"
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-received-email.php:19
+#, php-format
+msgctxt "default email subject for quote received email"
+msgid "You have received a quote from %1$s"
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-reminder-email.php:14
+#: admin/modules/settings/views/quote/tabs/_email.php:69
+msgid "Quote pending reminder"
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-reminder-email.php:15
+msgid ""
+"This email is sent to the customer as a pending quote reminder when a quote "
+"is in pending payment status for a while."
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-reminder-email.php:17
+msgid "Reminder!"
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-reminder-email.php:19
+msgctxt "default email subject for quote reminder email"
+msgid "You have a pending quote"
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-request-submitted-email.php:14
+#: admin/modules/settings/views/quote/tabs/_email.php:61
+msgid "Quote request submitted"
+msgstr "Richiesta di preventivo inviata"
+
+#: admin/modules/emails/classes/class-wtwraq-quote-request-submitted-email.php:15
+msgid "This email is sent to the customer when a quote request is submitted."
+msgstr ""
+
+#: admin/modules/emails/classes/class-wtwraq-quote-request-submitted-email.php:17
+msgid "Your request has been received"
+msgstr "La tua richiesta è stata ricevuta"
+
+#: admin/modules/emails/classes/class-wtwraq-quote-request-submitted-email.php:19
+#, php-format
+msgctxt "default email subject for quote request submitted email"
+msgid "Your %1$s quote request received"
+msgstr ""
+
+#: admin/modules/emails/emails.php:76
+#, php-format
+msgid "Subtotal: %1$s"
+msgstr ""
+
+#: admin/modules/emails/emails.php:80
+#, php-format
+msgid "Discount: %1$s"
+msgstr ""
+
+#: admin/modules/emails/emails.php:84
+#, php-format
+msgid "Total tax: %1$s"
+msgstr ""
+
+#: admin/modules/emails/emails.php:88
+#, php-format
+msgid "Shipping: %1$s"
+msgstr ""
+
+#: admin/modules/emails/emails.php:92
+#, php-format
+msgid "Total: %1$s"
+msgstr ""
+
+#: admin/modules/emails/emails.php:103 admin/modules/emails/emails.php:238
+msgid "Admin message"
+msgstr ""
+
+#: admin/modules/emails/emails.php:112 admin/modules/emails/emails.php:250
+msgid "Customer details"
+msgstr ""
+
+#: admin/modules/emails/emails.php:114
+#, php-format
+msgid "Name: %1$s"
+msgstr ""
+
+#: admin/modules/emails/emails.php:116
+#, php-format
+msgid "Email: %1$s"
+msgstr ""
+
+#: admin/modules/emails/emails.php:120
+#, php-format
+msgid "Phone: %1$s"
+msgstr ""
+
+#: admin/modules/emails/emails.php:125
+#, php-format
+msgid "Message: %1$s"
+msgstr ""
+
+#: admin/modules/emails/emails.php:134 admin/modules/emails/emails.php:137
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: admin/modules/emails/emails.php:167
+msgid "Products"
+msgstr "Prodotti"
+
+#: admin/modules/emails/emails.php:168
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:80
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:31
+#: admin/partials/pdf-template.php:326
+#: includes/wt-woo-request-quote-common-functions.php:983
+#: public/templates/request-quote.php:55 public/templates/request-quote.php:154
+msgid "Quantity"
+msgstr "Quantità"
+
+#: admin/modules/emails/emails.php:171
+#: includes/wt-woo-request-quote-common-functions.php:977
+#: public/templates/quote-details.php:77 public/templates/quote-details.php:121
+#: public/templates/request-quote.php:38 public/templates/request-quote.php:137
+msgid "Price"
+msgstr "Prezzo"
+
+#: public/templates/quote-details.php:16
+msgid "Quote history"
+msgstr "Storico"
+
+#: public/templates/quote-details.php:53
+msgid "by customer"
+msgstr "da cliente"
+
+#: public/templates/quote-details.php:53
+msgid "by admin"
+msgstr "da amministratore"
+
+#: admin/modules/emails/emails.php:196
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:115
+#: admin/partials/pdf-template.php:447
+#: includes/wt-woo-request-quote-common-functions.php:1009
+msgid "Subtotal"
+msgstr "Totale parziale"
+
+#: admin/modules/emails/emails.php:203
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:81
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:121
+#: admin/partials/pdf-template.php:327 admin/partials/pdf-template.php:454
+#: includes/wt-woo-request-quote-common-functions.php:989
+#: includes/wt-woo-request-quote-common-functions.php:1015
+msgid "Discount"
+msgstr "Sconto"
+
+#: admin/modules/emails/emails.php:210
+msgid "Total tax"
+msgstr "Totale tasse"
+
+#: admin/modules/emails/emails.php:217
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:133
+#: admin/partials/pdf-template.php:474
+#: includes/wt-woo-request-quote-common-functions.php:1027
+#: public/templates/request-quote.php:239
+#: public/templates/request-quote.php:240
+msgid "Shipping"
+msgstr "Spedizione"
+
+#: admin/modules/emails/emails.php:224
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:140
+#: admin/partials/pdf-template.php:484
+#: includes/wt-woo-request-quote-common-functions.php:995
+#: includes/wt-woo-request-quote-common-functions.php:1033
+msgid "Total"
+msgstr "Totale"
+
+#: admin/modules/emails/emails.php:254
+#: admin/modules/quotes/views/quote-details.php:19
+#: admin/modules/settings/views/general/tabs/partials/_exclusion_list_items.php:12
+#: admin/modules/settings/views/general/tabs/partials/_inclusion_list_items.php:12
+#: includes/wt-woo-request-quote-common-functions.php:364
+msgid "Name"
+msgstr "Nome"
+
+#: admin/modules/emails/emails.php:258
+#: admin/modules/quotes/views/quote-details.php:25
+#: admin/modules/settings/views/quote/quote.php:14
+#: includes/wt-woo-request-quote-common-functions.php:373
+#: includes/wt-woo-request-quote-common-functions.php:472
+msgid "Email"
+msgstr ""
+
+#: admin/modules/emails/emails.php:264
+#: admin/modules/quotes/views/quote-details.php:31
+#: includes/wt-woo-request-quote-common-functions.php:382
+#: includes/wt-woo-request-quote-common-functions.php:471
+msgid "Phone"
+msgstr "Telefono"
+
+#: admin/modules/emails/emails.php:272
+#: admin/modules/quotes/views/quote-details.php:37
+#: includes/wt-woo-request-quote-common-functions.php:391
+msgid "Message"
+msgstr "Messaggio"
+
+#: admin/modules/emails/views/plain/wtwraq_new_quote_request.php:8
+#: admin/modules/emails/views/wtwraq_new_quote_request.php:9
+#, php-format
+msgid "You have received the following quote request from %1$s:"
+msgstr ""
+
+#: admin/modules/emails/views/plain/wtwraq_new_quote_request.php:12
+#, php-format
+msgid "Quote request #%1$s (%2$s)"
+msgstr ""
+
+#: admin/modules/emails/views/plain/wtwraq_quote_accepted.php:8
+msgid "The following quote has been accepted::"
+msgstr ""
+
+#: admin/modules/emails/views/plain/wtwraq_quote_accepted.php:12
+#: admin/modules/emails/views/plain/wtwraq_quote_declined.php:12
+#: admin/modules/emails/views/plain/wtwraq_quote_expired.php:12
+#: admin/modules/emails/views/plain/wtwraq_quote_expiry_reminder.php:12
+#: admin/modules/emails/views/plain/wtwraq_quote_received.php:12
+#: admin/modules/emails/views/plain/wtwraq_quote_reminder.php:12
+#: admin/modules/emails/views/plain/wtwraq_quote_request_submitted.php:12
+#, php-format
+msgid "Quote #%1$s (%2$s)"
+msgstr ""
+
+#: admin/modules/emails/views/plain/wtwraq_quote_declined.php:8
+msgid "The following quote has been rejected::"
+msgstr ""
+
+#: admin/modules/emails/views/plain/wtwraq_quote_expired.php:8
+#: admin/modules/emails/views/wtwraq_quote_expired.php:10
+#, php-format
+msgid "Your quote #%1$s has been expired. Here are the quote details:"
+msgstr ""
+
+#: admin/modules/emails/views/plain/wtwraq_quote_expiry_reminder.php:8
+#: admin/modules/emails/views/wtwraq_quote_expiry_reminder.php:10
+#, php-format
+msgid ""
+"Your quote #%1$s will expire on %2$s, and our offer will no longer be "
+"available. Here are the quote details:"
+msgstr ""
+
+#: admin/modules/emails/views/plain/wtwraq_quote_received.php:8
+#: admin/modules/emails/views/wtwraq_quote_received.php:10
+#, php-format
+msgid "We have reviewed your request #%1$s, and here is our quote:"
+msgstr ""
+
+#: admin/modules/emails/views/plain/wtwraq_quote_reminder.php:8
+#: admin/modules/emails/views/wtwraq_quote_reminder.php:10
+#, php-format
+msgid ""
+"You have a pending quote #%1$s on %2$s. Do not forgot it! Our proposal is as "
+"follows:"
+msgstr ""
+
+#: admin/modules/emails/views/plain/wtwraq_quote_request_submitted.php:8
+#, php-format
+msgid ""
+"Just to let you know — we have received your quote request #%1$s, and it is "
+"now being reviewed:"
+msgstr ""
+
+#: admin/modules/emails/views/wtwraq_new_quote_request.php:10
+#: admin/modules/emails/views/wtwraq_quote_request_submitted.php:14
+#: admin/modules/emails/views/wtwraq_quote_request_submitted.php:16
+msgid "Quote request #"
+msgstr ""
+
+#: admin/modules/emails/views/wtwraq_quote_accepted.php:9
+msgid "The following quote has been accepted:"
+msgstr ""
+
+#: admin/modules/emails/views/wtwraq_quote_accepted.php:10
+#: admin/modules/emails/views/wtwraq_quote_declined.php:10
+#: admin/modules/emails/views/wtwraq_quote_expired.php:14
+#: admin/modules/emails/views/wtwraq_quote_expired.php:16
+#: admin/modules/emails/views/wtwraq_quote_expiry_reminder.php:14
+#: admin/modules/emails/views/wtwraq_quote_expiry_reminder.php:16
+#: admin/modules/emails/views/wtwraq_quote_received.php:14
+#: admin/modules/emails/views/wtwraq_quote_received.php:16
+#: admin/modules/emails/views/wtwraq_quote_reminder.php:14
+#: admin/modules/emails/views/wtwraq_quote_reminder.php:16
+msgid "Quote #"
+msgstr ""
+
+#: admin/modules/emails/views/wtwraq_quote_declined.php:9
+msgid "The following quote has been rejected:"
+msgstr ""
+
+#: admin/modules/emails/views/wtwraq_quote_expired.php:9
+#: admin/modules/emails/views/wtwraq_quote_expiry_reminder.php:9
+#: admin/modules/emails/views/wtwraq_quote_received.php:9
+#: admin/modules/emails/views/wtwraq_quote_reminder.php:9
+#: admin/modules/emails/views/wtwraq_quote_request_submitted.php:9
+#, php-format
+msgid "Hi %1$s,"
+msgstr ""
+
+#: admin/modules/emails/views/wtwraq_quote_request_submitted.php:10
+#, php-format
+msgid ""
+"Just to let you know - we have received your quote request #%1$s, and it is "
+"now being reviewed:"
+msgstr ""
+
+#: admin/modules/quotes/quotes.php:38
+msgid "Quote PDF"
+msgstr "Preventivo PDF"
+
+#: admin/modules/quotes/quotes.php:41
+msgid "View"
+msgstr "Vedi"
+
+#: admin/modules/quotes/quotes.php:46
+msgid "Download"
+msgstr "Scarica"
+
+#: admin/modules/quotes/views/quote-details.php:11
+msgid "Sender details"
+msgstr "Informazioni richiedente"
+
+#: admin/modules/quotes/views/quote-details.php:81
+msgid "Set custom expiry period for this quote as"
+msgstr "Imposta un periodo di scadenza per questo preventivo a partire da ora"
+
+#: admin/modules/quotes/views/quote-details.php:91
+#: admin/modules/settings/views/quote/tabs/_quote.php:30
+msgid "Days"
+msgstr "Giorni"
+
+#: admin/modules/quotes/views/quote-details.php:92
+#: admin/modules/settings/views/quote/tabs/_quote.php:31
+msgid "Weeks"
+msgstr "Settimane"
+
+#: admin/modules/quotes/views/quote-details.php:93
+#: admin/modules/settings/views/quote/tabs/_quote.php:32
+msgid "Months"
+msgstr "Mesi"
+
+#: admin/modules/quotes/views/quote-details.php:94
+#: admin/modules/settings/views/quote/tabs/_quote.php:33
+msgid "No expiry time"
+msgstr "Nessuna scadenza"
+
+#: admin/modules/quotes/views/quote-details.php:101
+msgid "Additional message to the customer if any"
+msgstr "Inserisci qui ulteriori informazioni se necessario"
+
+#: admin/modules/quotes/views/quote-details.php:114
+msgid "Send quote"
+msgstr "Invia preventivo"
+
+#: admin/modules/quotes/views/related-quotes.php:4
+msgid "#"
+msgstr ""
+
+#: admin/modules/quotes/views/related-quotes.php:5
+#: public/templates/quote-details.php:26 public/templates/quotes-list.php:23
+msgid "Status"
+msgstr "Stato"
+
+#: admin/modules/quotes/views/related-quotes.php:6
+msgid "Requested date"
+msgstr "Data richiesta"
+
+#: admin/modules/quotes/views/related-quotes.php:23
+msgid "There are no related quotes yet"
+msgstr "Cono ci sono altri preventivi da mostrare"
+
+#: admin/modules/settings/settings.php:608
+msgid "(default)"
+msgstr ""
+
+#: admin/modules/settings/settings.php:635
+msgid "Add field"
+msgstr "Aggiungi campo"
+
+#: admin/modules/settings/views/customizer/customizer.php:9
+msgid "Buttons"
+msgstr "Pulsanti"
+
+#: admin/modules/settings/views/customizer/customizer.php:10
+msgid "PDF Templates"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/customizer.php:43
+#: admin/modules/settings/views/customizer/pdf-templates/layout.php:15
+msgid "Save changes"
+msgstr "Salva modifiche"
+
+#: admin/modules/settings/views/customizer/pdf-templates/layout.php:12
+msgid "Template customizer"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/sidebar.php:36
+msgid "Title"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/sidebar.php:39
+msgid "Custom text"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/sidebar.php:42
+#: admin/modules/settings/views/customizer/pdf-templates/sidebar.php:112
+#: admin/modules/settings/views/quote/popups/_field.php:37
+msgid "Label"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/sidebar.php:74
+msgid "Click to upload your logo"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/sidebar.php:89
+msgid "Width"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:9
+#: admin/partials/pdf-template.php:74
+#: includes/wt-woo-request-quote-common-functions.php:915
+msgid "QUOTE"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:15
+#: admin/partials/pdf-template.php:92
+#: includes/wt-woo-request-quote-common-functions.php:924
+#: includes/wt-woo-request-quote-common-functions.php:928
+msgid "Quote number"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:21
+#: admin/partials/pdf-template.php:111
+#: includes/wt-woo-request-quote-common-functions.php:935
+msgid "Quote issue date"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:23
+msgid "24th April 2023"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:27
+#: admin/partials/pdf-template.php:130
+#: includes/wt-woo-request-quote-common-functions.php:942
+msgid "Valid till"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:29
+msgid "24th June 2023"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:48
+#: admin/partials/pdf-template.php:171
+msgid "Bill to,"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:57
+#: admin/partials/pdf-template.php:205
+#: includes/wt-woo-request-quote-common-functions.php:956
+msgid "From,"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:77
+#: admin/partials/pdf-template.php:323
+#: includes/wt-woo-request-quote-common-functions.php:965
+msgid "Image"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:78
+#: admin/modules/settings/views/general/tabs/_exclusion_list.php:25
+#: admin/modules/settings/views/general/tabs/_inclusion_list.php:25
+#: admin/modules/settings/views/general/tabs/partials/_list_table_action_bar.php:38
+#: admin/partials/pdf-template.php:324
+#: includes/wt-woo-request-quote-common-functions.php:971
+#: public/templates/quote-details.php:112 public/templates/request-quote.php:33
+#: public/templates/request-quote.php:122
+msgid "Product"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:79
+#: admin/partials/pdf-template.php:325
+msgid "Unit price"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:82
+#: admin/partials/pdf-template.php:328 public/templates/quote-details.php:83
+#: public/templates/quote-details.php:127 public/templates/request-quote.php:61
+#: public/templates/request-quote.php:162
+msgid "Total price"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:127
+#: admin/partials/pdf-template.php:465
+#: includes/wt-woo-request-quote-common-functions.php:1021
+msgid "Tax"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:146
+#: admin/partials/pdf-template.php:502
+msgid "Accept Quote"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:147
+#: admin/partials/pdf-template.php:505
+msgid "Reject"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/pdf-templates/template.php:153
+#: includes/wt-woo-request-quote-common-functions.php:1047
+#: includes/wt-woo-request-quote-common-functions.php:1051
+msgid "Additional text"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_accept_and_pay.php:10
+msgid "Enable 'Accept and pay' button on quote"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_accept_and_pay.php:27
+msgid "'Accept and pay' label"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_accept_and_pay.php:28
+msgid "Text to be displayed on the 'Accept and pay' button."
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_accept_and_pay.php:37
+msgid "Show 'Accept and pay' as"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_accept_and_pay.php:38
+msgid "Allows setting the 'Accept and pay' option as a button or hyperlink."
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_accept_and_pay.php:42
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:25
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:25
+#: admin/modules/settings/views/customizer/tabs/_decline.php:42
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:25
+msgid "Button"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_accept_and_pay.php:45
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:28
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:28
+#: admin/modules/settings/views/customizer/tabs/_decline.php:45
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:28
+msgid "Text link"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_accept_and_pay.php:53
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:49
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:49
+#: admin/modules/settings/views/customizer/tabs/_decline.php:53
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:49
+msgid "Button colour"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_accept_and_pay.php:58
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:54
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:54
+#: admin/modules/settings/views/customizer/tabs/_decline.php:58
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:54
+msgid "Border"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_accept_and_pay.php:65
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:61
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:61
+#: admin/modules/settings/views/customizer/tabs/_decline.php:65
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:61
+msgid "Background"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_accept_and_pay.php:72
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:68
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:68
+#: admin/modules/settings/views/customizer/tabs/_decline.php:72
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:68
+#: includes/wt-woo-request-quote-common-functions.php:469
+msgid "Text"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_accept_and_pay.php:79
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:75
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:75
+#: admin/modules/settings/views/customizer/tabs/_decline.php:79
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:75
+msgid "Preview"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_accept_and_pay.php:87
+#: admin/modules/settings/views/customizer/tabs/_accept_and_pay.php:94
+#: admin/modules/settings/views/customizer/tabs/_accept_and_pay.php:101
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:83
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:90
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:97
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:83
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:90
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:97
+#: admin/modules/settings/views/customizer/tabs/_decline.php:87
+#: admin/modules/settings/views/customizer/tabs/_decline.php:94
+#: admin/modules/settings/views/customizer/tabs/_decline.php:101
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:83
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:90
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:97
+msgid "On hover"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:10
+msgid "'Add to quote' label"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:11
+msgid "Text to be displayed on the 'Add to quote' button."
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:20
+msgid "Show 'Add to quote' as"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:21
+msgid "Allows setting the 'Add to quote' option as a button or hyperlink."
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:34
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:34
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:34
+msgid "Use default button style"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_add_to_quote.php:38
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:38
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:38
+msgid "Enable to use default button style from currently installed theme"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:10
+msgid "'Ask for quote' label"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:11
+msgid "Text to be displayed on the 'Ask for quote' button."
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:20
+msgid "Show 'Ask for quote' as"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_ask_for_quote.php:21
+msgid "Allows setting the 'Ask for quote' option as a button or hyperlink."
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_decline.php:10
+msgid "Enable 'Decline' button on quote"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_decline.php:27
+msgid "'Decline' label"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_decline.php:28
+msgid "Text to be displayed on the 'Decline' button."
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_decline.php:37
+msgid "Show 'Decline' as"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_decline.php:38
+msgid "Allows setting the 'Decline' option as a button or hyperlink."
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:10
+msgid "'Request a quote' label"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:11
+msgid "Text to be displayed on the 'Request a quote' button."
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:20
+msgid "Show 'Request a quote' as"
+msgstr ""
+
+#: admin/modules/settings/views/customizer/tabs/_request_a_quote.php:21
+msgid "Allows setting the 'Request a quote' option as a button or hyperlink."
+msgstr ""
+
+#: admin/modules/settings/views/general/general.php:12
+msgid "General settings"
+msgstr ""
+
+#: admin/modules/settings/views/general/general.php:13
+#: admin/modules/settings/views/general/tabs/_exclusion_list.php:8
+msgid "Exclusion list"
+msgstr ""
+
+#: admin/modules/settings/views/general/general.php:14
+#: admin/modules/settings/views/general/tabs/_inclusion_list.php:8
+msgid "Inclusion list"
+msgstr ""
+
+#: admin/modules/settings/views/general/general.php:37
+#: admin/modules/settings/views/quote/quote.php:37
+msgid "Update settings"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_exclusion_list.php:9
+msgid "Add new exclusion"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_exclusion_list.php:15
+msgid "Select exclusion type"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_exclusion_list.php:29
+#: admin/modules/settings/views/general/tabs/_inclusion_list.php:29
+#: admin/modules/settings/views/general/tabs/partials/_list_table_action_bar.php:39
+msgid "Category"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_exclusion_list.php:33
+#: admin/modules/settings/views/general/tabs/_inclusion_list.php:33
+#: admin/modules/settings/views/general/tabs/partials/_list_table_action_bar.php:40
+msgid "Tag"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_exclusion_list.php:38
+#: admin/modules/settings/views/general/tabs/_inclusion_list.php:38
+msgid "Search for a product"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_exclusion_list.php:41
+#: admin/modules/settings/views/general/tabs/_inclusion_list.php:41
+msgid "Search for a category"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_exclusion_list.php:44
+#: admin/modules/settings/views/general/tabs/_inclusion_list.php:44
+msgid "Search for a tag"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_exclusion_list.php:49
+#: admin/modules/settings/views/general/tabs/_inclusion_list.php:49
+#: admin/modules/settings/views/quote/popups/_field.php:146
+msgid "Add"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_exclusion_list.php:50
+#: admin/modules/settings/views/general/tabs/_inclusion_list.php:50
+msgid "Cancel"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:10
+msgid "Show 'Add to quote' button for products"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:11
+msgid ""
+"Adds a button to include either all or featured or out of stock products to "
+"the quote list."
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:19
+msgid "All products"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:20
+msgid "or"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:22
+msgid "Featured products"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:24
+msgid "Out of stock products"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:26
+msgid "Backorders"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:28
+msgid "Based on inclusion list"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:34
+msgid "Show 'Add to quote' button on pages"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:35
+msgid ""
+"Adds a button to include products to the quote list in a single product page "
+"or shop page based on the selection."
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:39
+msgid "Single product page"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:41
+msgid "Shop page"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:47
+msgid "'Add to quote' button position in product page"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:48
+msgid ""
+"Choose where to display the 'Add to quote' button in single product page"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:52
+msgid "Inline with 'Add to cart'"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:54
+msgid "Below 'Add to cart'"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:60
+msgid "Show 'Add to quote' button to users"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:61
+msgid ""
+"Adds a button to include products to the quote list for logged in users or "
+"guest users based on the selection."
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:65
+msgid "Logged in users"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:67
+msgid "Guest users"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:73
+msgid "Show 'Add to quote' button for out of stock products"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:77
+msgid "Enable to show 'Add to quote' button for out of stock products"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:82
+msgid "Accept preferred price from customers"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:86
+msgid "Enable to accept preferred pricing from customer"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:91
+msgid "Accept preference as"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:97
+msgid "Preferred price in percentage"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:99
+#: public/templates/request-quote.php:48
+msgid "Preferred discount"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:105
+msgid "'Add to quote' behaviour"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:109
+msgid ""
+"Enable to redirect to request quote page after adding each product to the "
+"quote list"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:115
+msgid "Mini quote support"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:119
+msgid "Enable to display mini quote list"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:125
+msgid "Calculate shipping fee in quote total"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:129
+msgid "Enable to calculate shipping fee in quote total"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:135
+msgid "Hide prices"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:139
+msgid "Enable to hide prices for quotable products"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:145
+msgid "Hide 'Add to cart' button"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:149
+msgid "Enable to hide 'Add to cart' button for quotable products"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:155
+msgid "Show 'Ask for quote' button on cart"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:159
+msgid "Enable to show 'Ask for quote' button on cart page"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:165
+msgid "My account quotes endpoint url"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_general.php:174
+msgid "My account quotes title"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_inclusion_list.php:9
+msgid "Add new inclusion"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/_inclusion_list.php:15
+msgid "Select inclusion type"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/partials/_exclusion_list_items.php:13
+#: admin/modules/settings/views/general/tabs/partials/_inclusion_list_items.php:13
+msgid "Type"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/partials/_exclusion_list_items.php:62
+#: admin/modules/settings/views/general/tabs/partials/_inclusion_list_items.php:62
+#: admin/modules/settings/views/general/tabs/partials/_list_table_action_bar.php:29
+msgid "Delete"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/partials/_exclusion_list_items.php:72
+#: admin/modules/settings/views/general/tabs/partials/_inclusion_list_items.php:72
+msgid "No items found"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/partials/_list_table_action_bar.php:28
+msgid "Bulk actions"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/partials/_list_table_action_bar.php:32
+msgid "Apply"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/partials/_list_table_action_bar.php:37
+msgid "All types"
+msgstr ""
+
+#: admin/modules/settings/views/general/tabs/partials/_list_table_action_bar.php:43
+msgid "Filter"
+msgstr ""
+
+#: admin/modules/settings/views/quote/popups/_field.php:14
+msgid "Field type"
+msgstr ""
+
+#: admin/modules/settings/views/quote/popups/_field.php:54
+msgid "Placeholder"
+msgstr ""
+
+#: admin/modules/settings/views/quote/popups/_field.php:55
+msgid " (optional)"
+msgstr ""
+
+#: admin/modules/settings/views/quote/popups/_field.php:66
+msgid "Options"
+msgstr ""
+
+#: admin/modules/settings/views/quote/popups/_field.php:90
+msgid "Add option"
+msgstr ""
+
+#: admin/modules/settings/views/quote/popups/_field.php:95
+msgid "File formats supported"
+msgstr ""
+
+#: admin/modules/settings/views/quote/popups/_field.php:100
+#, php-format
+msgid "Enter file format extentions. Use %1s to separate values"
+msgstr ""
+
+#: admin/modules/settings/views/quote/popups/_field.php:105
+msgid "Connect to"
+msgstr ""
+
+#: admin/modules/settings/views/quote/popups/_field.php:109
+#: public/templates/request-quote.php:420
+msgid "--SELECT--"
+msgstr ""
+
+#: admin/modules/settings/views/quote/popups/_field.php:128
+msgid "Is this field mandatory?"
+msgstr ""
+
+#: admin/modules/settings/views/quote/popups/_field.php:146
+msgid "Update"
+msgstr ""
+
+#: admin/modules/settings/views/quote/quote.php:12
+msgid "Request quote page"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_email.php:10
+msgid "Email notifications"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_email.php:13
+msgid "Send emails for quote statuses (to admin)"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_email.php:14
+msgid ""
+"Enable to send email to admin on selected quote statues. By default, all the "
+"options are enabled."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_email.php:20
+msgid "Quote approval"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_email.php:22
+msgid "Quote rejection"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_email.php:28
+msgid "Backend recipient email"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_email.php:29
+msgid "Allows to set the email addresses of admin or backend email recipients."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_email.php:50
+msgid "If this field is left empty, default admin email address will be used"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_email.php:56
+msgid "Send emails for quote statuses (to customer)"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_email.php:57
+msgid ""
+"Enable to send emails to the customer on selected quote statutes. By "
+"default, all the options are enabled."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_email.php:63
+#: includes/wt-woo-request-quote-common-functions.php:626
+msgid "Quote received"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:13
+msgid "Generate and send quotes automatically"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:17
+msgid "Enable to generate and send quotes automatically"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:18
+msgid ""
+"If checked, Quotes will be sent automatically to the customer with already "
+"saved product prices"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:24
+msgid "Set expiry period for quotes as"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:25
+msgid ""
+"Allows setting the expiry period for the quote. The expiry period is called "
+"from the time the shop owner sends the quote to the customer."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:40
+msgid "Accepted quote payment gateways"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:43
+msgid "Select payment methods"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:60
+msgid "Show 'Ask for quote again' link for the same quote list"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:61
+msgid ""
+"Adds a new link 'Ask for quote again' to reinitiate the quote request "
+"process when a quote is declined."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:65
+msgid "Enable to show 'Ask for quote again' link for the same quote list"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:86
+#, php-format
+msgid ""
+"Requires mPDF library to add PDF support. %s Click here %s to install the %s "
+"mPDF add-on by WebToffee %s(free)."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:89
+#, php-format
+msgid ""
+"Requires mPDF version %s or greater to add PDF support. %s Click here %s to "
+"update the %s mPDF add-on by WebToffee %s(free)."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:93
+#, php-format
+msgid ""
+"Requires mPDF library to add PDF support. %s Click here %s to activate the "
+"%s mPDF add-on by WebToffee %s(free)."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:100
+#, php-format
+msgid ""
+"Requires mPDF library to add PDF support. Please install the %s mPDF add-on "
+"by WebToffee %s(free)."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:105
+msgid "Quotes PDF"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:108
+msgid "Allow quotes to be downloaded as PDF"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:112
+msgid "Enable to allow quotes to be downloaded as PDF"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:118
+msgid "Attach quote PDF with email"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_quote.php:122
+msgid "Enable to attach quote PDF with email"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:10
+msgid "Request quote page settings"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:13
+msgid "Page title"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:14
+msgid "The option adds the specified title to the request a quote page."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:23
+msgid "In product table, show"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:24
+msgid ""
+"The selected items are added to the product table of the request a quote "
+"page. The options depends on the 'Hide prices' settings."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:28
+msgid "Product name"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:34
+msgid "Product image"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:36
+msgid "SKU"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:41
+msgid "Prices"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:43
+msgid "Total amount of single product"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:45
+msgid "Total amount of all products"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:47
+msgid "Taxes"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:55
+msgid "Show 'Clear list' button"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:56
+msgid ""
+"Adds a clear list button to remove all items added to the quote list at once."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:60
+msgid "Enable to show 'Clear list' button on request quote page"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:66
+msgid "After sending request, redirect to"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:67
+msgid "Redirects to the specified page after submitting the quote request."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:71
+msgid "Thank you page"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:73
+msgid "Quote details in My account"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:75
+msgid "Shop"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:81
+msgid "Custom text to show upon sending a quote request"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:82
+msgid ""
+"The content added here is shown on the quote details page that pops up after "
+"the quote request is submitted."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:83
+msgid "(in quote details page)"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:96
+msgid "Form settings"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:99
+msgid "User registration"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:100
+msgid ""
+"When enabled forces the user to register when submitting a quote request. A "
+"user account will be created along the quote request submission. When "
+"disabled does not ask for user registration."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:104
+msgid "Make it optional"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:106
+msgid "Force user registration"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:108
+msgid "Do not prompt"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:114
+msgid "Add reCAPTCHA"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:118
+msgid ""
+"Enable to add reCAPTCHA v3 verification for request quote form submition"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:121
+msgid "API key pair"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:122
+#, php-format
+msgid "To start using reCAPTCHA, you need to sign up for an %1$s for your site"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:131
+msgid "Site key"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:132
+msgid "A valid site key generated by Google reCAPTCHA on registering the site."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:141
+msgid "Secret key"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:142
+msgid ""
+"A valid secret key generated by Google reCAPTCHA on registering the site."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:152
+msgid "Autocomplete form"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:153
+msgid ""
+"When enabled autocompletes request quote form with user account details if "
+"the user is logged in."
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:157
+msgid "Enable to autocomplete request quote form with user account details"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:163
+msgid "Form fields"
+msgstr ""
+
+#: admin/modules/settings/views/quote/tabs/_request_quote.php:164
+msgid "Add/Edit/Hide the fields in the request quote form."
+msgstr ""
+
+#: admin/modules/settings/views/settings-layout.php:13
+msgid "Developed by "
+msgstr ""
+
+#: admin/modules/settings/views/settings-layout.php:23
+msgid "Licence"
+msgstr ""
+
+#: admin/partials/pdf-template.php:522
+msgid "Additional information"
+msgstr ""
+
+#: includes/class-wt-woo-request-quote-shortcodes.php:74
+msgid "Invaild quote"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:141
+msgid "WebToffee WooCommerce Request A Quote"
+msgstr ""
+
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:302
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:347
+msgid "Request failed, Please try again"
+msgstr ""
+
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:326
+msgid "License activation successful"
+msgstr ""
+
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:366
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:532
+msgid "License deactivation successful"
+msgstr ""
+
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:421
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:598
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:661
+msgid "The product license has either expired or not been activated."
+msgstr ""
+
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:425
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:429
+msgid "Invalid license."
+msgstr ""
+
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:435
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:439
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:443
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:447
+msgid "License is not valid for this product"
+msgstr ""
+
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:451
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:601
+#, php-format
+msgid ""
+"The product license has expired. Please <a href=\"%s\" "
+"target=\"_blank\">renew</a> to continue receiving updates."
+msgstr ""
+
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:604
+msgid "Failed to retrieve license information from server please try again"
+msgstr ""
+
+#: includes/wf_api_manager/class-wt-woo-request-quote-license-handler.php:658
+#, php-format
+msgid ""
+"The plugin license is not activated. You will not receive compatibility and "
+"security updates if the plugin license is not activated. <a href=\"%s\" "
+"target=\"_blank\">Activate now</a>"
+msgstr ""
+
+#: includes/wf_api_manager/html/html-wf-activation-window.php:107
+msgid "License Activation"
+msgstr ""
+
+#: includes/wf_api_manager/html/html-wf-activation-window.php:111
+msgid "API License Key:"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:8
+msgid "New Quote Request"
+msgstr "Nuovo preventivo"
+
+#: includes/wt-woo-request-quote-common-functions.php:9
+msgid "Quote Sent"
+msgstr "Preventivo inviato"
+
+#: includes/wt-woo-request-quote-common-functions.php:9
+msgid "Quote Received"
+msgstr "Preventivo ricevuto"
+
+#: includes/wt-woo-request-quote-common-functions.php:10
+msgid "Expired"
+msgstr "Scaduto"
+
+#: includes/wt-woo-request-quote-common-functions.php:11
+msgid "Declined"
+msgstr "Rifiutato"
+
+#: includes/wt-woo-request-quote-common-functions.php:31
+#: includes/wt-woo-request-quote-common-functions.php:413
+msgid "Add to quote"
+msgstr "Aggiungi al preventivo"
+
+#: includes/wt-woo-request-quote-common-functions.php:32
+#: includes/wt-woo-request-quote-common-functions.php:422
+msgid "Request a quote"
+msgstr "Richiedi un preventivo"
+
+#: includes/wt-woo-request-quote-common-functions.php:33
+#: includes/wt-woo-request-quote-common-functions.php:431
+msgid "Ask for quote"
+msgstr "Invia richiesta di preventivo"
+
+#: includes/wt-woo-request-quote-common-functions.php:34
+#: includes/wt-woo-request-quote-common-functions.php:441
+msgid "Accept and pay"
+msgstr "Accetta e paga"
+
+#: includes/wt-woo-request-quote-common-functions.php:35
+#: includes/wt-woo-request-quote-common-functions.php:450
+msgid "Decline"
+msgstr "Rifiuta"
+
+#: includes/wt-woo-request-quote-common-functions.php:58
+#: includes/wt-woo-request-quote-common-functions.php:199
+#: includes/wt-woo-request-quote-common-functions.php:1107
+msgid "View quote"
+msgstr "Visualizza preventivo"
+
+#: includes/wt-woo-request-quote-common-functions.php:355
+msgid ""
+"Hi, thank you for contacting us. We have received your request and we will "
+"get back to you soon."
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:366
+msgid "Enter name"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:375
+msgid "Enter email"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:384
+msgid "Enter phone"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:393
+msgid "Enter message"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:470
+msgid "Textarea"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:473
+msgid "URL"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:474
+msgid "Checkbox"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:475
+msgid "Multi checkbox"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:476
+msgid "Radio button"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:477
+msgid "Drop down"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:478
+msgid "File upload"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:479
+#: public/templates/quotes-list.php:24
+msgid "Date"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:480
+msgid "Time"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:486
+msgid "Billing first name"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:487
+msgid "Billing last name"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:488
+msgid "Billing company name"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:489
+msgid "Billing country/region"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:490
+msgid "Billing street address"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:491
+msgid "Billing appartment, suite, unit"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:492
+msgid "Billing town city"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:493
+msgid "Billing state"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:494
+msgid "Billing ZIP code"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:495
+msgid "Billing phone"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:496
+msgid "Billing email"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:497
+msgid "Shipping first name"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:498
+msgid "Shipping last name"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:499
+msgid "Shipping company name"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:500
+msgid "Shipping country/region"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:501
+msgid "Shipping street address"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:502
+msgid "Shipping appartment, suite, unit"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:503
+msgid "Shipping town city"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:504
+msgid "Shipping state"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:505
+msgid "Shipping ZIP code"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:506
+msgid "Shipping phone"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:507
+msgid "Shipping email"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:508
+msgid "Order notes"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:617
+msgid "Quote re-sent to the customer"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:619
+msgid "Quote sent : "
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:622
+msgid "Quote message to customer : "
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:627
+msgid "Quote received by customer"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:877
+msgid " item"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:877
+msgid " items"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:911
+msgid "Quote title"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:918
+msgid "Logo"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:931
+msgid "Quote date"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:938
+msgid "Quote expiry date"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:945
+msgid "Billing address"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:949
+msgid "Billing to,"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:952
+msgid "From address"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:959
+msgid "Product table"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:1003
+msgid "Summary table"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:1041
+msgid "Accept/Reject link"
+msgstr ""
+
+#: includes/wt-woo-request-quote-common-functions.php:1113
+msgid "No products in the quote list"
+msgstr ""
+
+#: public/class-wt-woo-request-quote-public.php:432
+msgid "Success"
+msgstr ""
+
+#: public/class-wt-woo-request-quote-public.php:457
+msgid "Quote sent successfully"
+msgstr "Preventivo inviato con successo"
+
+#: public/class-wt-woo-request-quote-public.php:544
+msgid "Quote request recaptcha validation failed"
+msgstr ""
+
+#: public/class-wt-woo-request-quote-public.php:556
+msgid "User is already registered. Please login to request quote"
+msgstr ""
+"L’utente è già registrato. Per favore effettua il login per richiedere il "
+"preventivo"
+
+#: public/class-wt-woo-request-quote-public.php:663
+#: public/class-wt-woo-request-quote-public.php:666
+msgid "WebToffee Quote"
+msgstr ""
+
+#: public/class-wt-woo-request-quote-public.php:832
+msgid "Request sent"
+msgstr "Richiesta inviata"
+
+#: public/class-wt-woo-request-quote-public.php:833
+msgid "Quote request sent"
+msgstr "Richiesta di preventivo inviata"
+
+#: public/class-wt-woo-request-quote-public.php:1138
+msgid "Order processing"
+msgstr "Ordine in lavorazione"
+
+#: public/class-wt-woo-request-quote-public.php:1139
+msgid "Quote order processing"
+msgstr "Ordine preventivato in lavorazione"
+
+#: public/class-wt-woo-request-quote-public.php:1220
+msgid "Processing"
+msgstr "In lavorazione"
+
+#: public/class-wt-woo-request-quote-public.php:1221
+msgid "Pending payment"
+msgstr "In attesa di pagamento"
+
+#: public/class-wt-woo-request-quote-public.php:1287
+msgid "Quote accepted - payment pending"
+msgstr ""
+
+#: public/class-wt-woo-request-quote-public.php:1288
+msgid "Quote accepted by the customer"
+msgstr ""
+
+#: public/class-wt-woo-request-quote-public.php:1321
+msgid "Quote rejected"
+msgstr "Preventivo rifiutato"
+
+#: public/class-wt-woo-request-quote-public.php:1322
+msgid "Quote rejected by the customer"
+msgstr "Preventivo rifiutato dal cliente"
+
+#: public/class-wt-woo-request-quote-public.php:1511
+msgid "You must check at least one checkbox for "
+msgstr ""
+
+#: public/templates/quote-details.php:17
+#, php-format
+msgid "Quote request #%1$s"
+msgstr "Preventivo #%1$s"
+
+#: public/templates/quote-details.php:20
+#, php-format
+msgid "Quote #%1$s"
+msgstr "Preventivo #%1$s"
+
+#: public/templates/quote-details.php:46
+msgid "Admin messages"
+msgstr ""
+
+#: public/templates/quote-details.php:62
+msgid "Download PDF"
+msgstr "Scarica PDF"
+
+#: public/templates/quote-details.php:70
+msgid "Product list"
+msgstr "Lista prodotti"
+
+#: public/templates/quote-details.php:143
+msgid "Your quote will be expired on "
+msgstr "Il tuo preventivo scadrà il "
+
+#: public/templates/quote-details.php:151
+#: public/templates/request-quote.php:191
+msgid "Subtotal:"
+msgstr "Totale parziale:"
+
+#: public/templates/quote-details.php:158
+msgid "Discount:"
+msgstr "Sconto:"
+
+#: public/templates/quote-details.php:165
+#: public/templates/request-quote.php:200
+msgid "Total tax:"
+msgstr "Totale tasse:"
+
+#: public/templates/quote-details.php:172
+msgid "Shipping:"
+msgstr "Spedizione:"
+
+#: public/templates/quote-details.php:179
+#: public/templates/request-quote.php:209
+msgid "Total:"
+msgstr "Totale:"
+
+#: public/templates/quote-details.php:217
+msgid "Ask for quote again"
+msgstr "Richiedi nuovamente il preventivo"
+
+#: public/templates/quote-details.php:223
+msgid "Go to checkout"
+msgstr "Vai al pagamento"
+
+#: public/templates/quotes-list.php:9
+msgid "Filter quotes"
+msgstr "Filtra preventivi"
+
+#: public/templates/quotes-list.php:49
+msgid "There are no quotes yet"
+msgstr "Non ci sono preventivi da mostrare"
+
+#: public/templates/request-quote.php:129
+msgid "SKU: "
+msgstr ""
+
+#: public/templates/request-quote.php:178
+msgid "Clear List"
+msgstr "Azzera lista"
+
+#: public/templates/request-quote.php:183
+msgid "Update List"
+msgstr "Aggiorna lista"
+
+#: public/templates/request-quote.php:488
+msgid "AM"
+msgstr ""
+
+#: public/templates/request-quote.php:489
+msgid "PM"
+msgstr ""
+
+#: public/templates/request-quote.php:509
+msgid "Create an account ?"
+msgstr "Vuoi creare un account?"
+
+#: public/templates/request-quote.php:522
+msgid "Account username"
+msgstr ""
+
+#: public/templates/request-quote.php:533
+msgid "Account password"
+msgstr ""
+
+#: public/templates/request-quote.php:541
+msgid "A link to set a new password will be sent to your email address."
+msgstr ""
+
+#: public/templates/request-quote.php:558
+msgid "No products were found in the quote list."
+msgstr "Non ci sono prodotti nella richiesta di preventivo."
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.webtoffee.com/product/woocommerce-request-a-quote/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allows the customers to request and receive quotes for the products they are "
+"interested in."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WebToffee"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.webtoffee.com/"
+msgstr ""
